@@ -11,8 +11,10 @@ import re
 import hashlib 
 import exifread
 from pathlib import Path
+import shutil
 #  https://docs.python.org/3/library/csv.html
 import csv
+from dateutil.parser import parse
 
 # **************************************************
 # processing
@@ -260,54 +262,64 @@ def initialize():
 #  delete file
 #  > returns True|False
 def deleteFiles(filelist) -> bool:
-    if type(filelist) == type(list):
-        for files in filelist:
-            try:
-                p(info,files[0])
-                os.remove(files[0]) 
-                return True
+    
+    for files in filelist:
+        
+        try:
+            os.remove(files[0]) 
 
-            except IsADirectoryError as i:
-                p(warning, 'Removing a directory', files[0]
-                         , 'is not supported, error ', i)
+        except IsADirectoryError as i:
+            p(warning, 'Removing a directory', files[0]
+                     , 'is not supported, error ', i)
 
-            except Exception as e:
-                p(error, 'Deleting file', files[0], 'failed with error', 
-                         e, 'Do you have sufficient rights?')
-        return False
-    else:
-        p(error, 'There seems to be a type problem with', type(filelist)
-             , 'delete execution failed.')
-        return False
+        except Exception as e:
+            p(error, 'Deleting file', files[0], 'failed with error', 
+                     e, 'Do you have sufficient rights?')
+
+    return True
 
 #  ********
 #  rename file
 #  > returns True|False
 def renameTheFiles(filelist: list) -> bool:
-    if type(filelist) == type(list()):
-        n=0
-        t=1
-        for files in filelist:
-            if n == 0 or n==50:
-                p(warning,'Renaming files in files list'
-                    , t, 'of', len(filelist))
-                n=0
-            n+=1
+    
+    global deleteSourceFile
+    
+    n=0
+    t=1
+    for files in filelist:
+        if n == 0 or n==50:
+            p(warning,'Renaming (or copying) files from  files list'
+                , t, 'of', len(filelist))
+            n=0
+        n+=1
+        if files[0][:1] == files[1][:1]: 
             try:
                 os.rename(os.path.join(files[0]), os.path.join(files[1])) 
             except WindowsError as w:
-                p(error, 'File', files[0], 'is done already')
-                pass
+                p(error, 'File', files[0], 'gives me a message while \
+                            renaming', w)
             except Exception as e:
                 p(error, 'Renaming file', os.path.join(files[0])
                          , 'to', os.path.join(files[1])
                          , 'failed with error', e
                          , 'Do you have sufficient rights?')
-            t+=1
-    else:
-        p(error, 'There seems to be a type problem with', type(filelist)
-             , 'rename execution failed.')
-        return False
+
+        else:
+            try:
+                shutil.copy2(files[0], files[1])
+                if os.path.isfile(files[1]):
+                    if settings["sourcedelete"]:
+                        deleteFile = []
+                        deleteFile.append(files)
+                        deleteFiles(deleteFile)
+                else:
+                    p(info, 'No erros but file doesn\'t exist. Bummer.')
+            except Exception as c:
+                p(error, 'This didn\'t work, sorry: ', c)
+
+        t+=1
+
     return True
 
 
@@ -355,27 +367,36 @@ def removeDuplicates(inlist)->list:
 #  if not create it
 #  > returns True|False
 def doDirCreate(folders: list) -> bool:
-    if type(folders) == type(folders):
-        # remove duplicates
-        folders=removeDuplicates(folders)
-        n=0
-        for folder in folders:
-            if n == 0 or n == 50: 
-                p(warning,'Creating folders in folder list'
-                    , n, 'of', len(folders)) 
-                n=0
-            n+=1
-            target=settings["foldertarget"] 
-            drive, dirs = os.path.splitdrive(folder[0].replace(target,''))
+
+    # remove duplicates
+    folders=removeDuplicates(folders)
+    n=0
+    for folder in folders:
+        if n == 0 or n == 50: 
+            p(warning,'Creating folders in folder list'
+                , n, 'of', len(folders)) 
+            n=0
+        n+=1
+        target=settings["foldertarget"] 
+        drive, dirs = os.path.splitdrive(folder[0].replace(target,''))
+        splitdirs = dirs.split('\\')[1:]
+        if len(splitdirs)==0:
+            drive, dirs = os.path.splitdrive(str(folder).replace(target,''))
             splitdirs = dirs.split('\\')[1:]
-            for dir in splitdirs:
-                target = target+'\\'+dir
-                if not os.path.isdir(target):
-                    try:
-                        os.mkdir(target)
-                        p(verbose,'Creation of', target, 'succeeded.')
-                    except:
-                        pass
+            
+        p(allmsg,'Target root', target, 'folder', str(folder[0]), 
+                 'drive', drive, 'path', dirs)
+        
+        for dir in splitdirs:
+            target = target+'\\'+dir
+            p(allmsg,'Target for folder creation', target)
+            if not os.path.isdir(target):
+                try:
+                    os.mkdir(target)
+                    p(verbose,'Creation of', target, 'succeeded.')
+                except Exception as e:
+                    p(error,'Creation failed with error message:',e)
+                    pass
 
     return True
 
@@ -508,6 +529,22 @@ def checkFiles(fileList, verificationType) -> bool:
     return True
 
 #  ********
+#  is it a date?
+def is_date(string, fuzzy=False):
+    """
+    Return whether the string can be interpreted as a date.
+
+    :param string: str, string to check for date
+    :param fuzzy: bool, ignore unknown tokens in string if True
+    """
+    try: 
+        parse(string, fuzzy=fuzzy)
+        return True
+
+    except ValueError:
+        return False
+
+#  ********
 #  return datetime object
 def getDateFromFilename(filepath: str):
     
@@ -533,10 +570,12 @@ def getDateFromFilename(filepath: str):
             try:
                 datepattern = re.search(r[0], filename)
                 if datepattern: 
-                    dt = datetime.datetime.strptime(
-                            datepattern.group(), r[1]).date()
-                    skip = True
-                    break
+                    if is_date(datepattern.group()):
+                        skip = True
+                        dt = datetime.datetime.strptime(
+                                datepattern.group(), r[1]).date()
+                        break
+
                 else:
                     pass
 
@@ -556,6 +595,7 @@ def getDateFromFilename(filepath: str):
                     Do you have enough rights to read the file? \
                     The respons was', f)
                 return None
+
 
         dt = datetime.datetime.strftime(dt, '%Y%m%d')
         
@@ -675,9 +715,10 @@ def performSearch():
     p(info,'Found', len(listOfFolders), 'folders to process.')
 
     #  what extensions should be evaluated
-    unknownExt = ['thm','db']
+    unknownExt = ['thm','db']   # skipped
     pictureExtensions = ['jpg', 'srw', 'jpeg', 'png', 'mp4','3gp']
-    soundExtensions = ['aac']
+    soundExtensions = ['aac','opus']
+    #  if not these then movies
 
     a=0
     print()
