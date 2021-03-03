@@ -28,3 +28,18 @@ Script to move files from source into target folder structure using different fi
     --number [], -n []    Maximum files to evaluate (steps of 50).
 
 Not all arguments are implemented (yet).
+
+# mf2fs.json
+File that holds a list of file extensions with categories.
+**fileextensions**
+- extension = name 
+- category = name
+- structure = structure definition, implemented is the before mentioned "ymd_structure"
+- action = actions to perform on files, implemented is moveIntotarget and leaveCount 
+- description = description of file
+
+**categorylist**
+- category = the name of the category, referenced by fileextensions.category
+- creationdateproperties = file properties to be used for date creation check, e.g. EXIF DateTimeOriginal, DateTimeOriginal, EXIF DateTimeDigitized, etc.
+- creationdatecategory = a 'self' reference category or to another categoryto be used for category grouping 
+- fallbackcategory = if all else fails category reference
