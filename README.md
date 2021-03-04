@@ -31,6 +31,7 @@ Not all arguments are implemented (yet).
 
 # mf2fs.json
 File that holds a list of file extensions with categories.
+
 **fileextensions**
 - extension = name 
 - category = name
