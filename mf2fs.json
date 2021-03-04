@@ -1,0 +1,4089 @@
+{
+  "fileextensions": [
+    {
+      "extension": "3d",
+      "category": "3D graphics",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "3D drawing CAD data"
+    },
+    {
+      "extension": "3ds",
+      "category": "3D graphics",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "3ds Max (3D Studio MAX) graphics"
+    },
+    {
+      "extension": "c4d",
+      "category": "3D graphics",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "CINEMA 4D file format"
+    },
+    {
+      "extension": "dgn",
+      "category": "3D graphics",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "MicroStation drawing"
+    },
+    {
+      "extension": "dwfx",
+      "category": "3D graphics",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Autodesk Design Web Format"
+    },
+    {
+      "extension": "dwg",
+      "category": "3D graphics",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "AutoCAD drawing"
+    },
+    {
+      "extension": "dxf",
+      "category": "3D graphics",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "AutoCAD DXF Drawing Exchange Format"
+    },
+    {
+      "extension": "ipt",
+      "category": "3D graphics",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "AutoDesk Inventor CAD part"
+    },
+    {
+      "extension": "lcf",
+      "category": "3D graphics",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "ArchiCAD library container"
+    },
+    {
+      "extension": "max",
+      "category": "3D graphics",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "3ds Max (3D Studio MAX) scene"
+    },
+    {
+      "extension": "obj",
+      "category": "3D graphics",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "3D object graphics"
+    },
+    {
+      "extension": "pro",
+      "category": "3D graphics",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "General project file"
+    },
+    {
+      "extension": "skp",
+      "category": "3D graphics",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "SketchUp graphics"
+    },
+    {
+      "extension": "stl",
+      "category": "3D graphics",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Stereolithography CAD data"
+    },
+    {
+      "extension": "u3d",
+      "category": "3D graphics",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Universal 3D format graphics"
+    },
+    {
+      "extension": "x_t",
+      "category": "3D graphics",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Parasolid model (text)"
+    },
+    {
+      "extension": "*",
+      "category": "Anything else",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Anything else"
+    },
+    {
+      "extension": "001",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Compressed file from a multi-volume archive (part 1)"
+    },
+    {
+      "extension": "002",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Compressed file from a multi-volume archive (part 2)"
+    },
+    {
+      "extension": "003",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Compressed file from a multi-volume archive (part 3)"
+    },
+    {
+      "extension": "004",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Compressed file from a multi-volume archive (part 4)"
+    },
+    {
+      "extension": "005",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Compressed file from a multi-volume archive (part 5)"
+    },
+    {
+      "extension": "006",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Compressed file from a multi-volume archive (part 6)"
+    },
+    {
+      "extension": "007",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Compressed file from a multi-volume archive (part 7)"
+    },
+    {
+      "extension": "008",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Compressed file from a multi-volume archive (part 8)"
+    },
+    {
+      "extension": "009",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Compressed file from a multi-volume archive (part 9)"
+    },
+    {
+      "extension": "010",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Compressed file from a multi-volume archive (part 10)"
+    },
+    {
+      "extension": "7z",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "7-ZIP compressed 7z archive"
+    },
+    {
+      "extension": "7z.001",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume 7-ZIP compressed file archive (part 1)"
+    },
+    {
+      "extension": "7z.002",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume 7-ZIP compressed file archive (part 2)"
+    },
+    {
+      "extension": "7z.003",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume 7-ZIP compressed file archive (part 3)"
+    },
+    {
+      "extension": "7z.004",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume 7-ZIP compressed file archive (part 4)"
+    },
+    {
+      "extension": "7zip",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "7-Zip 7z compressed archive"
+    },
+    {
+      "extension": "a00",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume ARJ compressed file archive (part 2)"
+    },
+    {
+      "extension": "a01",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume ARJ compressed file archive (part 3)"
+    },
+    {
+      "extension": "a02",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume ARJ compressed file archive (part 4)"
+    },
+    {
+      "extension": "a03",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume ARJ compressed file archive (part 5)"
+    },
+    {
+      "extension": "a04",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume ARJ compressed file archive (part 6)"
+    },
+    {
+      "extension": "a05",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume ARJ compressed file archive (part 7)"
+    },
+    {
+      "extension": "ace",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "WinACE compressed ace archive"
+    },
+    {
+      "extension": "air",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Adobe AIR rich Internet applications"
+    },
+    {
+      "extension": "appxbundle",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Windows app bundle package"
+    },
+    {
+      "extension": "arc",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "ARC lossless data compression and archive format"
+    },
+    {
+      "extension": "arj",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "ARJ Compressed archive"
+    },
+    {
+      "extension": "asec",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Google Android encrypted application package"
+    },
+    {
+      "extension": "bar",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "BlackBerry OS 10 application installation package"
+    },
+    {
+      "extension": "bin",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Macbinary II encoded file"
+    },
+    {
+      "extension": "c00",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume ACE compressed file archive"
+    },
+    {
+      "extension": "c01",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume ACE compressed file archive"
+    },
+    {
+      "extension": "c02",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume ACE compressed file archive"
+    },
+    {
+      "extension": "c03",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume ACE compressed file archive"
+    },
+    {
+      "extension": "cab",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Windows Cabinet Compressed Archive"
+    },
+    {
+      "extension": "cbr",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Comic Book Archive file or ComicBook Reader e-book"
+    },
+    {
+      "extension": "cbz",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Comic Book Archive file or ComicBook Reader e-book"
+    },
+    {
+      "extension": "cso",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "CISO compressed ISO image"
+    },
+    {
+      "extension": "deb",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Debian Linux package"
+    },
+    {
+      "extension": "dlc",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "JDownloader download link container"
+    },
+    {
+      "extension": "gz",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "GZIP compressed archive"
+    },
+    {
+      "extension": "gzip",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "GNU ZIP gzip compressed archive"
+    },
+    {
+      "extension": "hqx",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Macintosh BinHex archive"
+    },
+    {
+      "extension": "inv",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Windows Update data"
+    },
+    {
+      "extension": "ipa",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Apple iOS application"
+    },
+    {
+      "extension": "isz",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "UltraISO compressed disk image"
+    },
+    {
+      "extension": "jar",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Compressed archive file package for Java classes and data"
+    },
+    {
+      "extension": "msu",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Update Standalone Package"
+    },
+    {
+      "extension": "nbh",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "HTC ROM update utility ROM image"
+    },
+    {
+      "extension": "pak",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Game resource package"
+    },
+    {
+      "extension": "part1.exe",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume RAR compressed self-extracting file archive (part 1)"
+    },
+    {
+      "extension": "part1.rar",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume RAR compressed file archive (part 1)"
+    },
+    {
+      "extension": "part2.rar",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume RAR compressed file archive (part 2)"
+    },
+    {
+      "extension": "pkg",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Apple macOS (OS X) installer package"
+    },
+    {
+      "extension": "r00",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume RAR compressed file archive (part 2)"
+    },
+    {
+      "extension": "r01",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume RAR compressed file archive (part 3)"
+    },
+    {
+      "extension": "r02",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume RAR compressed file archive (part 4)"
+    },
+    {
+      "extension": "r03",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume RAR compressed file archive (part 5)"
+    },
+    {
+      "extension": "r04",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume RAR compressed file archive (part 6)"
+    },
+    {
+      "extension": "r05",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume RAR compressed file archive (part 7)"
+    },
+    {
+      "extension": "r06",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume RAR compressed file archive (part 8)"
+    },
+    {
+      "extension": "r07",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume RAR compressed file archive (part 9)"
+    },
+    {
+      "extension": "r08",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume RAR compressed file archive (part 10)"
+    },
+    {
+      "extension": "r09",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume RAR compressed file archive (part 11)"
+    },
+    {
+      "extension": "r10",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume RAR compressed file archive (part 12)"
+    },
+    {
+      "extension": "rar",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "WinRAR RAR compressed archive"
+    },
+    {
+      "extension": "rpm",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Linux package manager archive"
+    },
+    {
+      "extension": "sis",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Symbian installation file"
+    },
+    {
+      "extension": "sisx",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Symbian OS program installation executable"
+    },
+    {
+      "extension": "sit",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "StuffIt archive format"
+    },
+    {
+      "extension": "sitd",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "StuffIt archive"
+    },
+    {
+      "extension": "sitx",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "StuffIt archive"
+    },
+    {
+      "extension": "tar",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Unix standard Archive format, Tape Archive"
+    },
+    {
+      "extension": "tar.gz",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Old version Gzip compressed TAR Archive"
+    },
+    {
+      "extension": "tgz",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Gzip compressed TAR archive"
+    },
+    {
+      "extension": "uax",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Unreal audio package"
+    },
+    {
+      "extension": "vsix",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Visual Studio extension package"
+    },
+    {
+      "extension": "webarchive",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Apple Safari web archive"
+    },
+    {
+      "extension": "xap",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Windows Phone and Microsoft Silverlight application package"
+    },
+    {
+      "extension": "z01",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume ZIP compressed file archive (part 2)"
+    },
+    {
+      "extension": "z02",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume ZIP compressed file archive (part 3)"
+    },
+    {
+      "extension": "z03",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume ZIP compressed file archive (part 4)"
+    },
+    {
+      "extension": "z04",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume ZIP compressed file archive (part 5)"
+    },
+    {
+      "extension": "z05",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Split Multi-volume ZIP compressed file archive (part 6)"
+    },
+    {
+      "extension": "zab",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Zipped audio book"
+    },
+    {
+      "extension": "zip",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "WinZIP Compressed ZIP archive"
+    },
+    {
+      "extension": "zipx",
+      "category": "Archives",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Extended Zip archive"
+    },
+    {
+      "extension": "3ga",
+      "category": "Audio files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Audio file for wireless networks"
+    },
+    {
+      "extension": "aac",
+      "category": "Audio files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Advanced audio coding stream file"
+    },
+    {
+      "extension": "aiff",
+      "category": "Audio files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Audio Interchange File Format"
+    },
+    {
+      "extension": "amr",
+      "category": "Audio files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Adaptive Multi-Rate compressed audio"
+    },
+    {
+      "extension": "ape",
+      "category": "Audio files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Monkey's Audio lossless audio compression format"
+    },
+    {
+      "extension": "arf",
+      "category": "Audio files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "WebEx advanced record file"
+    },
+    {
+      "extension": "asf",
+      "category": "Audio files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Advanced Systems (streaming) format"
+    },
+    {
+      "extension": "asx",
+      "category": "Audio files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Microsoft Advanced Streaming Redirector"
+    },
+    {
+      "extension": "cda",
+      "category": "Audio files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "CD Audio track"
+    },
+    {
+      "extension": "dvf",
+      "category": "Audio files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Sony DV voice data"
+    },
+    {
+      "extension": "flac",
+      "category": "Audio files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Audio files encoded by Flac - free lossless audio codec"
+    },
+    {
+      "extension": "gp4",
+      "category": "Audio files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Guitar Pro 4 project"
+    },
+    {
+      "extension": "gp5",
+      "category": "Audio files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Guitar Pro 5 project"
+    },
+    {
+      "extension": "gpx",
+      "category": "Audio files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Guitar Pro 6 format"
+    },
+    {
+      "extension": "logic",
+      "category": "Audio files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Apple Logic Pro music project"
+    },
+    {
+      "extension": "m4a",
+      "category": "Audio files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "MPEG-4 compressed audio"
+    },
+    {
+      "extension": "m4b",
+      "category": "Audio files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "MPEG-4 Audio Layer audio book"
+    },
+    {
+      "extension": "m4p",
+      "category": "Audio files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Apple iTunes Music Store audio"
+    },
+    {
+      "extension": "midi",
+      "category": "Audio files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "MIDI-sequention sound"
+    },
+    {
+      "extension": "mp3",
+      "category": "Audio files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Compressed audio and music file, mp3 songs or ringtones"
+    },
+    {
+      "extension": "ogg",
+      "category": "Audio files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Ogg Vorbis audio"
+    },
+    {
+      "extension": "opus",
+      "category": "Audio files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Opus audio data"
+    },
+    {
+      "extension": "pcm",
+      "category": "Audio files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "PCM audio data file"
+    },
+    {
+      "extension": "rec",
+      "category": "Audio files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Recorded data"
+    },
+    {
+      "extension": "snd",
+      "category": "Audio files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Sound data"
+    },
+    {
+      "extension": "sng",
+      "category": "Audio files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Audio or song"
+    },
+    {
+      "extension": "wav",
+      "category": "Audio files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "WAVe PCM Sound, standard Windows sound format"
+    },
+    {
+      "extension": "wma",
+      "category": "Audio files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Windows Media Audio file"
+    },
+    {
+      "extension": "wpl",
+      "category": "Audio files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Microsoft Windows Media Player playlist"
+    },
+    {
+      "extension": "bak",
+      "category": "Backup files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Generally a backup created by various software applications"
+    },
+    {
+      "extension": "bbb",
+      "category": "Backup files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "BlackBerry backup (post 2012)"
+    },
+    {
+      "extension": "bkf",
+      "category": "Backup files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft backup"
+    },
+    {
+      "extension": "bkp",
+      "category": "Backup files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Backup"
+    },
+    {
+      "extension": "dbk",
+      "category": "Backup files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Sony Ericsson mobile phone backup"
+    },
+    {
+      "extension": "gho",
+      "category": "Backup files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Norton Ghost backup image"
+    },
+    {
+      "extension": "ipd",
+      "category": "Backup files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "BlackBerry backup (pre 2012)"
+    },
+    {
+      "extension": "iso",
+      "category": "Backup files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "CD/DVD/HD DVD/Blu-ray disc ISO binary image"
+    },
+    {
+      "extension": "json",
+      "category": "Backup files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Mozilla Firefox bookmark backup"
+    },
+    {
+      "extension": "mdbackup",
+      "category": "Backup files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Apple iPhone backup"
+    },
+    {
+      "extension": "nba",
+      "category": "Backup files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Nero BackItUp archive"
+    },
+    {
+      "extension": "nbf",
+      "category": "Backup files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Backup NOW! backup archive"
+    },
+    {
+      "extension": "nco",
+      "category": "Backup files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Nero BackItUp compressed backup"
+    },
+    {
+      "extension": "nrg",
+      "category": "Backup files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Nero-Burning ROM CD or DVD image"
+    },
+    {
+      "extension": "old",
+      "category": "Backup files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Backup archive"
+    },
+    {
+      "extension": "sbf",
+      "category": "Backup files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Google Android mobile phone backup file"
+    },
+    {
+      "extension": "sbu",
+      "category": "Backup files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Samsung Kies backup"
+    },
+    {
+      "extension": "spb",
+      "category": "Backup files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Samsung Kies exported phone contacts library"
+    },
+    {
+      "extension": "spba",
+      "category": "Backup files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Samsung Kies phone contacts library"
+    },
+    {
+      "extension": "tib",
+      "category": "Backup files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Acronis True Image disk image backup"
+    },
+    {
+      "extension": "wbcat",
+      "category": "Backup files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Windows backup information"
+    },
+    {
+      "extension": "dmp",
+      "category": "Binary files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Memory dump, screen dump, junk files"
+    },
+    {
+      "extension": "log",
+      "category": "Binary files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Log"
+    },
+    {
+      "extension": "bmp",
+      "category": "Bitmap images",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Standard Windows bitmap image"
+    },
+    {
+      "extension": "cpt",
+      "category": "Bitmap images",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Corel PHOTO-PAINT bitmap image"
+    },
+    {
+      "extension": "dds",
+      "category": "Bitmap images",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "DirectDraw surface data"
+    },
+    {
+      "extension": "dib",
+      "category": "Bitmap images",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Device-Independent bitmap graphics"
+    },
+    {
+      "extension": "Digital camera RAW photos",
+      "category": "Bitmap images",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": ""
+    },
+    {
+      "extension": "emf",
+      "category": "Bitmap images",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Enhanced Windows Metafile picture"
+    },
+    {
+      "extension": "gif",
+      "category": "Bitmap images",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Graphics interchange file format"
+    },
+    {
+      "extension": "heic",
+      "category": "Bitmap images",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "High Efficiency Image Format"
+    },
+    {
+      "extension": "ico",
+      "category": "Bitmap images",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Icon image"
+    },
+    {
+      "extension": "icon",
+      "category": "Bitmap images",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Icon image file"
+    },
+    {
+      "extension": "jpeg",
+      "category": "Bitmap images",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "JPEG bitmap image format"
+    },
+    {
+      "extension": "jpg",
+      "category": "Bitmap images",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "JPEG bitmap image"
+    },
+    {
+      "extension": "pcx",
+      "category": "Bitmap images",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Paintbrush bitmap image"
+    },
+    {
+      "extension": "pic",
+      "category": "Bitmap images",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Picture image"
+    },
+    {
+      "extension": "png",
+      "category": "Bitmap images",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Portable Network Graphic file"
+    },
+    {
+      "extension": "psd",
+      "category": "Bitmap images",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Adobe Photoshop graphics"
+    },
+    {
+      "extension": "psdx",
+      "category": "Bitmap images",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Adobe Photoshop Touch graphics"
+    },
+    {
+      "extension": "tga",
+      "category": "Bitmap images",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Truevision TarGA bitmap image"
+    },
+    {
+      "extension": "thm",
+      "category": "Bitmap images",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Thumbnail bitmap image"
+    },
+    {
+      "extension": "tif",
+      "category": "Bitmap images",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Aldus Tagged Image File Format (TIFF) bitmap image"
+    },
+    {
+      "extension": "tiff",
+      "category": "Bitmap images",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Aldus Tagged Image File Format (TIFF) bitmap image"
+    },
+    {
+      "extension": "wbmp",
+      "category": "Bitmap images",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Wireless Bitmap image"
+    },
+    {
+      "extension": "wdp",
+      "category": "Bitmap images",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Windows Media HD Photo picture image"
+    },
+    {
+      "extension": "webp",
+      "category": "Bitmap images",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Google image file format"
+    },
+    {
+      "extension": "cfg",
+      "category": "Configuration files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Configuration files"
+    },
+    {
+      "extension": "cnf",
+      "category": "Configuration files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Network configuration data"
+    },
+    {
+      "extension": "config",
+      "category": "Configuration files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Configuration data"
+    },
+    {
+      "extension": "ini",
+      "category": "Configuration files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Text configuration data"
+    },
+    {
+      "extension": "reg",
+      "category": "Configuration files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Windows registry data"
+    },
+    {
+      "extension": "accdb",
+      "category": "Database related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Access main database"
+    },
+    {
+      "extension": "accdt",
+      "category": "Database related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Access database template"
+    },
+    {
+      "extension": "adf",
+      "category": "Database related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "ArcView ARC/INFO coverage data"
+    },
+    {
+      "extension": "csv",
+      "category": "Database related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Comma Separated Value file"
+    },
+    {
+      "extension": "db",
+      "category": "Database related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Database file"
+    },
+    {
+      "extension": "dbf",
+      "category": "Database related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Common database"
+    },
+    {
+      "extension": "fdb",
+      "category": "Database related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Firebird database"
+    },
+    {
+      "extension": "gdb",
+      "category": "Database related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Database file"
+    },
+    {
+      "extension": "geo",
+      "category": "Database related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "eXplorist GPS Geocache Manager database"
+    },
+    {
+      "extension": "GIS",
+      "category": "Database related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "GPS, map file types"
+    },
+    {
+      "extension": "idx",
+      "category": "Database related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Index file"
+    },
+    {
+      "extension": "kml",
+      "category": "Database related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Google Earth Keyhole Markup language data"
+    },
+    {
+      "extension": "kmz",
+      "category": "Database related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Compressed Keyhole Markup Language (Google Earth) data"
+    },
+    {
+      "extension": "map",
+      "category": "Database related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Geographical map"
+    },
+    {
+      "extension": "mdb",
+      "category": "Database related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Access database"
+    },
+    {
+      "extension": "mdf",
+      "category": "Database related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft SQL Server master database file format"
+    },
+    {
+      "extension": "sdf",
+      "category": "Database related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "SQL Server compact edition database"
+    },
+    {
+      "extension": "sql",
+      "category": "Database related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Structured Query Language Data SQL data"
+    },
+    {
+      "extension": "sqlite",
+      "category": "Database related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "SQLite database"
+    },
+    {
+      "extension": "wdb",
+      "category": "Database related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Works database"
+    },
+    {
+      "extension": "xml",
+      "category": "Database related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "XML document"
+    },
+    {
+      "extension": "arw",
+      "category": "Digital camera RAW photos",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Sony Digital Camera RAW digital image"
+    },
+    {
+      "extension": "cr2",
+      "category": "Digital camera RAW photos",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Canon digital camera RAW image format version 2.0"
+    },
+    {
+      "extension": "crw",
+      "category": "Digital camera RAW photos",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Canon digital camera RAW image format"
+    },
+    {
+      "extension": "dcr",
+      "category": "Digital camera RAW photos",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Kodak Digital Camera Raw Image Format"
+    },
+    {
+      "extension": "dng",
+      "category": "Digital camera RAW photos",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Adobe Digital Negative"
+    },
+    {
+      "extension": "fpx",
+      "category": "Digital camera RAW photos",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Kodak FlashPiX bitmap image"
+    },
+    {
+      "extension": "mrw",
+      "category": "Digital camera RAW photos",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Minolta Dimage RAW image"
+    },
+    {
+      "extension": "nef",
+      "category": "Digital camera RAW photos",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Nikon Digital SLR camera RAW image"
+    },
+    {
+      "extension": "orf",
+      "category": "Digital camera RAW photos",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Olympus Digital camera raw image"
+    },
+    {
+      "extension": "pcd",
+      "category": "Digital camera RAW photos",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Kodak Picture CD multiresolution image"
+    },
+    {
+      "extension": "ptx",
+      "category": "Digital camera RAW photos",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Pentax RAW bitmap graphic file"
+    },
+    {
+      "extension": "raf",
+      "category": "Digital camera RAW photos",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Fuji CCD-RAW graphic image"
+    },
+    {
+      "extension": "raw",
+      "category": "Digital camera RAW photos",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Digital camera photo RAW image format"
+    },
+    {
+      "extension": "rw2",
+      "category": "Digital camera RAW photos",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Panasonic Lumix RAW image"
+    },
+    {
+      "extension": "000",
+      "category": "Disk images",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "IsoBuster recovered CD/DVD image"
+    },
+    {
+      "extension": "ccd",
+      "category": "Disk images",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "CloneCD disk image"
+    },
+    {
+      "extension": "cue",
+      "category": "Disk images",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Cue sheet description"
+    },
+    {
+      "extension": "daa",
+      "category": "Disk images",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "PowerISO Direct-Access-Archive"
+    },
+    {
+      "extension": "dao",
+      "category": "Disk images",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Disk at Once CD/DVD image"
+    },
+    {
+      "extension": "dmg",
+      "category": "Disk images",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Apple Mac disk image"
+    },
+    {
+      "extension": "img",
+      "category": "Disk images",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "CloneCD disk image"
+    },
+    {
+      "extension": "mds",
+      "category": "Disk images",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Alcohol 120% Image file (media descriptor file) format"
+    },
+    {
+      "extension": "mdx",
+      "category": "Disk images",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Media Data eXtended image"
+    },
+    {
+      "extension": "tao",
+      "category": "Disk images",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "TAO Track at Once CD/DVD image"
+    },
+    {
+      "extension": "tc",
+      "category": "Disk images",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "TrueCrypt disk volume image file"
+    },
+    {
+      "extension": "toast",
+      "category": "Disk images",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Roxio Toast disk image"
+    },
+    {
+      "extension": "uif",
+      "category": "Disk images",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "MagicISO Universal Image Format"
+    },
+    {
+      "extension": "vcd",
+      "category": "Disk images",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Virtual CD-ROM CD image"
+    },
+    {
+      "extension": "abw",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "AbiWord document"
+    },
+    {
+      "extension": "aww",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Ability Write document"
+    },
+    {
+      "extension": "chm",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft compiled HTML help module"
+    },
+    {
+      "extension": "cnt",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Help Contents data"
+    },
+    {
+      "extension": "dbx",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Outlook Express e-mail folder"
+    },
+    {
+      "extension": "djvu",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "DjVu image"
+    },
+    {
+      "extension": "doc",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Word document (prior version 2007)"
+    },
+    {
+      "extension": "docm",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Word Open XML macro-enabled document"
+    },
+    {
+      "extension": "docx",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Word Open XML document"
+    },
+    {
+      "extension": "dot",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Word document template (up to Microsoft Word 2003 version)"
+    },
+    {
+      "extension": "dotm",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Word Open XML macro-enabled document template"
+    },
+    {
+      "extension": "dotx",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Word XML document template"
+    },
+    {
+      "extension": "epub",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Open Publication structure e-book"
+    },
+    {
+      "extension": "ind",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Adobe InDesign graphics document"
+    },
+    {
+      "extension": "indd",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Adobe InDesign document"
+    },
+    {
+      "extension": "key",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "iWork Keynote '09 presentation"
+    },
+    {
+      "extension": "keynote",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "iWork Keynote '06 presentation"
+    },
+    {
+      "extension": "mht",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Mime HTML (MHTML) document"
+    },
+    {
+      "extension": "mpp",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Project plan file"
+    },
+    {
+      "extension": "odf",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Open Document Interchange Format (ODIF)"
+    },
+    {
+      "extension": "ods",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "OpenDocument spreadsheet"
+    },
+    {
+      "extension": "odt",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "ODF text document"
+    },
+    {
+      "extension": "opx",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Office Organization chart file format"
+    },
+    {
+      "extension": "ott",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "OpenOffice.org text document template"
+    },
+    {
+      "extension": "oxps",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft OpenXPS document"
+    },
+    {
+      "extension": "pages",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Pages document"
+    },
+    {
+      "extension": "pdf",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Adobe Portable document format"
+    },
+    {
+      "extension": "pmd",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Adobe PageMaker document"
+    },
+    {
+      "extension": "pot",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft PowerPoint 97 to 2003 template"
+    },
+    {
+      "extension": "potx",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft PowerPoint Open XML presentation template"
+    },
+    {
+      "extension": "pps",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft PowerPoint 97 to 2003 complete slide show"
+    },
+    {
+      "extension": "ppsx",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft PowerPoint Open XML complete slide show"
+    },
+    {
+      "extension": "ppt",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft PowerPoint 97 to 2003 presentation"
+    },
+    {
+      "extension": "pptm",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft PowerPoint macro-enabled Open XML presentation"
+    },
+    {
+      "extension": "pptx",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft PowerPoint Open XML presentation"
+    },
+    {
+      "extension": "prn",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "HP PCL printer output"
+    },
+    {
+      "extension": "prproj",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Adobe Premiere Pro project"
+    },
+    {
+      "extension": "ps",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Adobe PostScript document"
+    },
+    {
+      "extension": "pub",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Publisher document"
+    },
+    {
+      "extension": "pwi",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Office Mobile personal note"
+    },
+    {
+      "extension": "rtf",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Rich Text Format document"
+    },
+    {
+      "extension": "sdd",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "OpenOffice.org presentation"
+    },
+    {
+      "extension": "sdw",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "OpenOffice.org text document"
+    },
+    {
+      "extension": "shs",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Windows Shell Scrap Object"
+    },
+    {
+      "extension": "snp",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Access report shapshot"
+    },
+    {
+      "extension": "sxw",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "OpenOffice.org Writer document"
+    },
+    {
+      "extension": "tpl",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Template file"
+    },
+    {
+      "extension": "vsd",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Visio diagram document"
+    },
+    {
+      "extension": "wpd",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Corel WordPerfect document"
+    },
+    {
+      "extension": "wps",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Works document"
+    },
+    {
+      "extension": "wri",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Windows Write document"
+    },
+    {
+      "extension": "xps",
+      "category": "Documents",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft XPS document"
+    },
+    {
+      "extension": "azw",
+      "category": "E-book files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Amazon Kindle eBook format"
+    },
+    {
+      "extension": "azw3",
+      "category": "E-book files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Amazon Kindle eBook"
+    },
+    {
+      "extension": "azw4",
+      "category": "E-book files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Amazon Kindle Print Replica e-book"
+    },
+    {
+      "extension": "fb2",
+      "category": "E-book files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "FictionBook e-Book"
+    },
+    {
+      "extension": "iba",
+      "category": "E-book files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "iBooks Author e-book"
+    },
+    {
+      "extension": "ibooks",
+      "category": "E-book files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "iBooks e-book"
+    },
+    {
+      "extension": "lit",
+      "category": "E-book files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Reader eBook"
+    },
+    {
+      "extension": "mobi",
+      "category": "E-book files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Mobipocket eBook format"
+    },
+    {
+      "extension": "eml",
+      "category": "Email files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Email message"
+    },
+    {
+      "extension": "ldif",
+      "category": "Email files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "LDIF address book interchange format"
+    },
+    {
+      "extension": "msg",
+      "category": "Email files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Saved email message file"
+    },
+    {
+      "extension": "pst",
+      "category": "Email files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Outlook personal storage table"
+    },
+    {
+      "extension": "vcf",
+      "category": "Email files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "vCard contacts"
+    },
+    {
+      "extension": "dat",
+      "category": "Emulation related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Game data"
+    },
+    {
+      "extension": "g64",
+      "category": "Emulation related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "C64 emulator disk image"
+    },
+    {
+      "extension": "gb",
+      "category": "Emulation related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Nintendo Gameboy ROM image"
+    },
+    {
+      "extension": "gba",
+      "category": "Emulation related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Nintendo Game Boy Advance ROM image"
+    },
+    {
+      "extension": "mbz",
+      "category": "Emulation related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Pogoshell NES emulator plugin"
+    },
+    {
+      "extension": "n64",
+      "category": "Emulation related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Nintendo 64 Emulation ROM image"
+    },
+    {
+      "extension": "nds",
+      "category": "Emulation related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Nintendo DS game ROM image"
+    },
+    {
+      "extension": "nes",
+      "category": "Emulation related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Nintendo Entertainment System ROM image"
+    },
+    {
+      "extension": "rom",
+      "category": "Emulation related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Read Only Memory image"
+    },
+    {
+      "extension": "smc",
+      "category": "Emulation related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Super Nintendo game-console ROM image"
+    },
+    {
+      "extension": "smd",
+      "category": "Emulation related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Sega Genesis ROM emulator data"
+    },
+    {
+      "extension": "srm",
+      "category": "Emulation related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Super Nintendo ROM saved game"
+    },
+    {
+      "extension": "v64",
+      "category": "Emulation related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Nintendo 64 emulation ROM image"
+    },
+    {
+      "extension": "crypt",
+      "category": "Encrypted files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "WhatsApp encrypted backup (original)"
+    },
+    {
+      "extension": "crypt12",
+      "category": "Encrypted files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "WhatsApp Messenger message database"
+    },
+    {
+      "extension": "ksd",
+      "category": "Encrypted files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "KeepSafe encrypted data"
+    },
+    {
+      "extension": "pfx",
+      "category": "Encrypted files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Certificate"
+    },
+    {
+      "extension": "pkpass",
+      "category": "Encrypted files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Apple Wallet pass data"
+    },
+    {
+      "extension": "rem",
+      "category": "Encrypted files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "BlackBerry encrypted data"
+    },
+    {
+      "extension": "app",
+      "category": "File extensions blocked by mail clients",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Mac application package or core system service"
+    },
+    {
+      "extension": "asp",
+      "category": "File extensions blocked by mail clients",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Active Server Page script page"
+    },
+    {
+      "extension": "bat",
+      "category": "File extensions blocked by mail clients",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Batch file (executable)"
+    },
+    {
+      "extension": "cmd",
+      "category": "File extensions blocked by mail clients",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Batch (command) file (executable)"
+    },
+    {
+      "extension": "com",
+      "category": "File extensions blocked by mail clients",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Command executable"
+    },
+    {
+      "extension": "exe",
+      "category": "File extensions blocked by mail clients",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Program executable"
+    },
+    {
+      "extension": "gadget",
+      "category": "File extensions blocked by mail clients",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Windows sidebar gadget"
+    },
+    {
+      "extension": "inf",
+      "category": "File extensions blocked by mail clients",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Windows installation script"
+    },
+    {
+      "extension": "js",
+      "category": "File extensions blocked by mail clients",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "JavaScript source code script"
+    },
+    {
+      "extension": "lnk",
+      "category": "File extensions blocked by mail clients",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Windows Shortcut"
+    },
+    {
+      "extension": "msi",
+      "category": "File extensions blocked by mail clients",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Windows Installer installation package"
+    },
+    {
+      "extension": "prg",
+      "category": "File extensions blocked by mail clients",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Program"
+    },
+    {
+      "extension": "scr",
+      "category": "File extensions blocked by mail clients",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "MS Windows screensaver"
+    },
+    {
+      "extension": "tmp",
+      "category": "File extensions blocked by mail clients",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Temporary data"
+    },
+    {
+      "extension": "vbs",
+      "category": "File extensions blocked by mail clients",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Visual Basic script"
+    },
+    {
+      "extension": "ofx",
+      "category": "Financial files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Open Financial Exchange format"
+    },
+    {
+      "extension": "qif",
+      "category": "Financial files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Quicken Interchange Format"
+    },
+    {
+      "extension": "tax2018",
+      "category": "Financial files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "TurboTax tax return 2018 file"
+    },
+    {
+      "extension": "eot",
+      "category": "Font files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Embedded OpenType font"
+    },
+    {
+      "extension": "otf",
+      "category": "Font files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "OpenType font file format"
+    },
+    {
+      "extension": "ttc",
+      "category": "Font files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "TrueType Font collection"
+    },
+    {
+      "extension": "ttf",
+      "category": "Font files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "TrueType font"
+    },
+    {
+      "extension": "woff",
+      "category": "Font files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Web Open Font Format package"
+    },
+    {
+      "extension": "big",
+      "category": "Game related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Electronic Arts game resource package"
+    },
+    {
+      "extension": "bik",
+      "category": "Game related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "BINK video"
+    },
+    {
+      "extension": "hi",
+      "category": "Game related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "High score record"
+    },
+    {
+      "extension": "lng",
+      "category": "Game related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Language definition file"
+    },
+    {
+      "extension": "replay",
+      "category": "Game related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Rocket League game replay"
+    },
+    {
+      "extension": "res",
+      "category": "Game related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Game resource data"
+    },
+    {
+      "extension": "rofl",
+      "category": "Game related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "League of Legends game replay file"
+    },
+    {
+      "extension": "sav",
+      "category": "Game related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Saved game file"
+    },
+    {
+      "extension": "save",
+      "category": "Game related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Doom 3 saved game"
+    },
+    {
+      "extension": "sc2replay",
+      "category": "Game related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Starcraft 2 game replay"
+    },
+    {
+      "extension": "scn",
+      "category": "Game related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Game scenario file"
+    },
+    {
+      "extension": "scx",
+      "category": "Game related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Game scenario"
+    },
+    {
+      "extension": "wotreplay",
+      "category": "Game related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "World of Tanks battle replay"
+    },
+    {
+      "extension": "wowpreplay",
+      "category": "Game related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "World of Warplanes replay"
+    },
+    {
+      "extension": "gdoc",
+      "category": "Google Cloud",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Link to Google Docs web application document"
+    },
+    {
+      "extension": "gsheet",
+      "category": "Google Cloud",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Link to Google Sheets web application spreadsheet document"
+    },
+    {
+      "extension": "gslides",
+      "category": "Google Cloud",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Link to Google Slides web application presentation"
+    },
+    {
+      "extension": "abr",
+      "category": "Graphics file types",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Adobe Photoshop brush"
+    },
+    {
+      "extension": "ai",
+      "category": "Graphics file types",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Adobe Illustrator graphics"
+    },
+    {
+      "extension": "ani",
+      "category": "Graphics file types",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Animated cursor"
+    },
+    {
+      "extension": "cdt",
+      "category": "Graphics file types",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "CorelDRAW template"
+    },
+    {
+      "extension": "eps",
+      "category": "Graphics file types",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Encapsulated PostScript image"
+    },
+    {
+      "extension": "fla",
+      "category": "Graphics file types",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Editable Adobe Flash project (animation, movie, flash application)"
+    },
+    {
+      "extension": "icns",
+      "category": "Graphics file types",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Apple icon graphic format"
+    },
+    {
+      "extension": "mdi",
+      "category": "Graphics file types",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Microsoft Office Document Imaging file format"
+    },
+    {
+      "extension": "odg",
+      "category": "Graphics file types",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "OpenDocument drawing"
+    },
+    {
+      "extension": "psb",
+      "category": "Graphics file types",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Adobe Photoshop Large Document Format"
+    },
+    {
+      "extension": "pzl",
+      "category": "Graphics file types",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Puzzle picture image"
+    },
+    {
+      "extension": "sup",
+      "category": "Graphics file types",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "3D Subtitle format"
+    },
+    {
+      "extension": "vsdx",
+      "category": "Graphics file types",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Microsoft Visio drawing"
+    },
+    {
+      "extension": "xmp",
+      "category": "Graphics file types",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Adobe Extensible Metadata Platform data"
+    },
+    {
+      "extension": "ashx",
+      "category": "Internet related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "ASP.NET web handler file"
+    },
+    {
+      "extension": "aspx",
+      "category": "Internet related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Active Server Page Extended ASP.NET script"
+    },
+    {
+      "extension": "atom",
+      "category": "Internet related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Atom web feed"
+    },
+    {
+      "extension": "bc",
+      "category": "Internet related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "BitTorrent unfinished download"
+    },
+    {
+      "extension": "bc!",
+      "category": "Internet related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Bittorrent unfinished download"
+    },
+    {
+      "extension": "class",
+      "category": "Internet related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Java bytecode class"
+    },
+    {
+      "extension": "crdownload",
+      "category": "Internet related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Google Chrome incomplete download"
+    },
+    {
+      "extension": "css",
+      "category": "Internet related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Cascading Style Sheets"
+    },
+    {
+      "extension": "download",
+      "category": "Internet related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Mozilla partial download"
+    },
+    {
+      "extension": "flv",
+      "category": "Internet related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Flash video"
+    },
+    {
+      "extension": "htm",
+      "category": "Internet related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "HTML Hypertext Markup Language web page"
+    },
+    {
+      "extension": "html",
+      "category": "Internet related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "HyperText Markup Language web page"
+    },
+    {
+      "extension": "jsp",
+      "category": "Internet related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "JAVA Server page file"
+    },
+    {
+      "extension": "jws",
+      "category": "Internet related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Oracle WebLogic Server Java Web Services data"
+    },
+    {
+      "extension": "opml",
+      "category": "Internet related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "OPML Outline Processor Markup Language file format"
+    },
+    {
+      "extension": "part",
+      "category": "Internet related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Partial download"
+    },
+    {
+      "extension": "partial",
+      "category": "Internet related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft partially downloaded data"
+    },
+    {
+      "extension": "php",
+      "category": "Internet related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "PHP script or page"
+    },
+    {
+      "extension": "rss",
+      "category": "Internet related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Really Simple Syndication - RSS file format"
+    },
+    {
+      "extension": "swf",
+      "category": "Internet related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "ShockWave Flash, Animated vector format for the Internet"
+    },
+    {
+      "extension": "torrent",
+      "category": "Internet related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "BitTorrent information"
+    },
+    {
+      "extension": "webm",
+      "category": "Internet related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Matroska WebM video"
+    },
+    {
+      "extension": "xhtml",
+      "category": "Internet related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Extensible HTML document"
+    },
+    {
+      "extension": "xsd",
+      "category": "Internet related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "XML schema description"
+    },
+    {
+      "extension": "xsl",
+      "category": "Internet related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "XML eXtensible stylesheet"
+    },
+    {
+      "extension": "xslt",
+      "category": "Internet related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "XSL transform data"
+    },
+    {
+      "extension": "mpd",
+      "category": "Microsoft Office files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Project database"
+    },
+    {
+      "extension": "mpt",
+      "category": "Microsoft Office files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Project template"
+    },
+    {
+      "extension": "oft",
+      "category": "Microsoft Office files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Outlook template"
+    },
+    {
+      "extension": "one",
+      "category": "Microsoft Office files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft OneNote document"
+    },
+    {
+      "extension": "onepkg",
+      "category": "Microsoft Office files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft OneNote package"
+    },
+    {
+      "extension": "thmx",
+      "category": "Microsoft Office files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Office theme"
+    },
+    {
+      "extension": "xls",
+      "category": "Microsoft Office files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Excel 97 to 2003 workbook"
+    },
+    {
+      "extension": "xlsm",
+      "category": "Microsoft Office files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Excel Open XML macro-enabled workbook"
+    },
+    {
+      "extension": "xlsx",
+      "category": "Microsoft Office files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Excel Open XML workbook and spreadsheet"
+    },
+    {
+      "extension": "apk",
+      "category": "Mobile phone related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Google Android application package"
+    },
+    {
+      "extension": "ipsw",
+      "category": "Mobile phone related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "iPhone, iPad or iPod Touch iOS software firmware update"
+    },
+    {
+      "extension": "lqm",
+      "category": "Mobile phone related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "LG QuickMemo note"
+    },
+    {
+      "extension": "nomedia",
+      "category": "Mobile phone related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Google Android OS system data"
+    },
+    {
+      "extension": "npf",
+      "category": "Mobile phone related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Samsung PC Studio phone book backup"
+    },
+    {
+      "extension": "rsc",
+      "category": "Mobile phone related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Resource data"
+    },
+    {
+      "extension": "spd",
+      "category": "Mobile phone related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "S Note note (new version)"
+    },
+    {
+      "extension": "tpk",
+      "category": "Mobile phone related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Tizen application package"
+    },
+    {
+      "extension": "xapk",
+      "category": "Mobile phone related files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Google Android XAPK application package"
+    },
+    {
+      "extension": "djr",
+      "category": "Mobile ringtones",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Ringtone Media Studio ringtone"
+    },
+    {
+      "extension": ".",
+      "category": "No extension",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "No extension"
+    },
+    {
+      "extension": "crx",
+      "category": "Plugins",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Google Chrome extension installer file format"
+    },
+    {
+      "extension": "plugin",
+      "category": "Plugins",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Plugin"
+    },
+    {
+      "extension": "safariextz",
+      "category": "Plugins",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Apple Safari extension"
+    },
+    {
+      "extension": "xpi",
+      "category": "Plugins",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Firefox browser extension"
+    },
+    {
+      "extension": "dll",
+      "category": "Possibly dangerous files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Dynamic Link Library"
+    },
+    {
+      "extension": "drv",
+      "category": "Possibly dangerous files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Windows device driver"
+    },
+    {
+      "extension": "ocx",
+      "category": "Possibly dangerous files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "ActiveX Control"
+    },
+    {
+      "extension": "sys",
+      "category": "Possibly dangerous files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "System file"
+    },
+    {
+      "extension": "vxd",
+      "category": "Possibly dangerous files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Windows virtual device driver"
+    },
+    {
+      "extension": "wmf",
+      "category": "Possibly dangerous files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Windows Metafile Format"
+    },
+    {
+      "extension": "application",
+      "category": "Program executables",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "ClickOnce deployment manifest"
+    },
+    {
+      "extension": "appx",
+      "category": "Program executables",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft AppX application package"
+    },
+    {
+      "extension": "cpl",
+      "category": "Program executables",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Windows Control Panel data"
+    },
+    {
+      "extension": "elf",
+      "category": "Program executables",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "ELF executable"
+    },
+    {
+      "extension": "list",
+      "category": "Python Input File",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Python list with script input"
+    },
+    {
+      "extension": "py",
+      "category": "Python Script",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Python script"
+    },
+    {
+      "extension": "ccc",
+      "category": "Ransomware encrypted files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "TeslaCrypt or Cryptowall encrypted data"
+    },
+    {
+      "extension": "cerber",
+      "category": "Ransomware encrypted files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Cerber ransomware affected data"
+    },
+    {
+      "extension": "cerber2",
+      "category": "Ransomware encrypted files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Cerber 2 ransomware affected file"
+    },
+    {
+      "extension": "cryptolocker",
+      "category": "Ransomware encrypted files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "CryptoLocker encrypted file"
+    },
+    {
+      "extension": "cryptowall",
+      "category": "Ransomware encrypted files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Encrypted file by Cryptowall ransomware"
+    },
+    {
+      "extension": "ecc",
+      "category": "Ransomware encrypted files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Cryptolocker or TeslaCrypt virus encrypted file"
+    },
+    {
+      "extension": "ezz",
+      "category": "Ransomware encrypted files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Alpha Crypt virus encrypted data"
+    },
+    {
+      "extension": "locky",
+      "category": "Ransomware encrypted files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Locky ransomware affected data"
+    },
+    {
+      "extension": "micro",
+      "category": "Ransomware encrypted files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "TeslaCrypt 3.0 ransomware encrypted data"
+    },
+    {
+      "extension": "zepto",
+      "category": "Ransomware encrypted files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Locky ransomware affected data"
+    },
+    {
+      "extension": "1st",
+      "category": "Simple text files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Readme first text document"
+    },
+    {
+      "extension": "alx",
+      "category": "Simple text files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "BlackBerry application loader"
+    },
+    {
+      "extension": "lrc",
+      "category": "Simple text files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Lyrics data"
+    },
+    {
+      "extension": "lst",
+      "category": "Simple text files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "List text"
+    },
+    {
+      "extension": "md",
+      "category": "Simple text files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Markdown markup language source code"
+    },
+    {
+      "extension": "nfo",
+      "category": "Simple text files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Information readme text document"
+    },
+    {
+      "extension": "plist",
+      "category": "Simple text files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Apple property XML list"
+    },
+    {
+      "extension": "srt",
+      "category": "Simple text files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "SubRip video subtitle format"
+    },
+    {
+      "extension": "sub",
+      "category": "Simple text files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "DivX movie subtitle file format"
+    },
+    {
+      "extension": "tbl",
+      "category": "Simple text files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Table data"
+    },
+    {
+      "extension": "text",
+      "category": "Simple text files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Simple text file"
+    },
+    {
+      "extension": "txt",
+      "category": "Simple text files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Simple text"
+    },
+    {
+      "extension": "asm",
+      "category": "Source code files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Assembler source code"
+    },
+    {
+      "extension": "inc",
+      "category": "Source code files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Include data"
+    },
+    {
+      "extension": "jad",
+      "category": "Source code files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Java application descriptor file"
+    },
+    {
+      "extension": "java",
+      "category": "Source code files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Java language source code"
+    },
+    {
+      "extension": "lib",
+      "category": "Source code files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Linker input library data"
+    },
+    {
+      "extension": "o",
+      "category": "Source code files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Object format"
+    },
+    {
+      "extension": "rc",
+      "category": "Source code files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Visual Studio Visual C/C++ resource script"
+    },
+    {
+      "extension": "scpt",
+      "category": "Source code files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "AppleScript script"
+    },
+    {
+      "extension": "src",
+      "category": "Source code files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Generally source code"
+    },
+    {
+      "extension": "xcodeproj",
+      "category": "Source code files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Apple Xcode software development project"
+    },
+    {
+      "extension": "numbers",
+      "category": "Spreadsheets",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Apple Numbers spreadsheet"
+    },
+    {
+      "extension": "sdc",
+      "category": "Spreadsheets",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "OpenOffice.org spreadsheet"
+    },
+    {
+      "extension": "sxc",
+      "category": "Spreadsheets",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Apache OpenOffice 1.0 spreadsheet"
+    },
+    {
+      "extension": "blf",
+      "category": "System file types",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Windows registry data file"
+    },
+    {
+      "extension": "dump",
+      "category": "System file types",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Dump data"
+    },
+    {
+      "extension": "evtx",
+      "category": "System file types",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Windows event log"
+    },
+    {
+      "extension": "kext",
+      "category": "System file types",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Apple Mac kernel extension"
+    },
+    {
+      "extension": "mui",
+      "category": "System file types",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "MultiLanguage Windows resource data"
+    },
+    {
+      "extension": "sfcache",
+      "category": "System file types",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "ReadyBoost cache"
+    },
+    {
+      "extension": "swp",
+      "category": "System file types",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Swap file"
+    },
+    {
+      "extension": "!ut",
+      "category": "Temporary files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "uTorrent incomplete download"
+    },
+    {
+      "extension": "adadownload",
+      "category": "Temporary files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Adobe Download Assistant partially completed download"
+    },
+    {
+      "extension": "cache",
+      "category": "Temporary files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Generally cache"
+    },
+    {
+      "extension": "temp",
+      "category": "Temporary files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Temporary file"
+    },
+    {
+      "extension": "3dr",
+      "category": "Various file types",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "3DMark benchmark result"
+    },
+    {
+      "extension": "cal",
+      "category": "Various file types",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Calendar data"
+    },
+    {
+      "extension": "dct",
+      "category": "Various file types",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Spell checking dictionary data"
+    },
+    {
+      "extension": "dic",
+      "category": "Various file types",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Dictionary"
+    },
+    {
+      "extension": "md5",
+      "category": "Various file types",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Checksum data"
+    },
+    {
+      "extension": "msmessagestore",
+      "category": "Various file types",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Windows Mail message information database"
+    },
+    {
+      "extension": "mswmm",
+      "category": "Various file types",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Windows Movie Maker project"
+    },
+    {
+      "extension": "npo",
+      "category": "Various file types",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Nonpareil redundancy summary data"
+    },
+    {
+      "extension": "prj",
+      "category": "Various file types",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Project"
+    },
+    {
+      "extension": "rep",
+      "category": "Various file types",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Report file"
+    },
+    {
+      "extension": "srg",
+      "category": "Various file types",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft PowerPoint self-registration data"
+    },
+    {
+      "extension": "template",
+      "category": "Various file types",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Template"
+    },
+    {
+      "extension": "upd",
+      "category": "Various file types",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Update data"
+    },
+    {
+      "extension": "upg",
+      "category": "Various file types",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Firmware upgrade"
+    },
+    {
+      "extension": "aae",
+      "category": "Various presets or theme files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Apple Photos sidecar file"
+    },
+    {
+      "extension": "contact",
+      "category": "Various presets or theme files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Windows contact data"
+    },
+    {
+      "extension": "deskthemepack",
+      "category": "Various presets or theme files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Windows theme pack"
+    },
+    {
+      "extension": "eng",
+      "category": "Various presets or theme files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "English language localization"
+    },
+    {
+      "extension": "ics",
+      "category": "Various presets or theme files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "iCalendar calendar file format (Microsoft Outlook, Apple iCal)"
+    },
+    {
+      "extension": "ifo",
+      "category": "Various presets or theme files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "DVD movie information file format"
+    },
+    {
+      "extension": "lrtemplate",
+      "category": "Various presets or theme files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Adobe Photoshop Lightroom preset settings"
+    },
+    {
+      "extension": "m3u",
+      "category": "Various presets or theme files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "MP3 songs playlist"
+    },
+    {
+      "extension": "m3u8",
+      "category": "Various presets or theme files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "UTF-8 M3U playlist"
+    },
+    {
+      "extension": "pls",
+      "category": "Various presets or theme files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Media playlist"
+    },
+    {
+      "extension": "ref",
+      "category": "Various presets or theme files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Reference"
+    },
+    {
+      "extension": "skn",
+      "category": "Various presets or theme files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Skin"
+    },
+    {
+      "extension": "svp",
+      "category": "Various presets or theme files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Virtual DJ visualization effects"
+    },
+    {
+      "extension": "theme",
+      "category": "Various presets or theme files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Windows desktop theme"
+    },
+    {
+      "extension": "themepack",
+      "category": "Various presets or theme files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Windows 7 theme pack"
+    },
+    {
+      "extension": "trm",
+      "category": "Various presets or theme files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Terminal settings"
+    },
+    {
+      "extension": "usr",
+      "category": "Various presets or theme files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "User specific settings"
+    },
+    {
+      "extension": "wba",
+      "category": "Various presets or theme files",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "WindowBlinds Desktop visual style"
+    },
+    {
+      "extension": "cdr",
+      "category": "Vector graphics",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "CorelDRAW vector or bitmap graphics"
+    },
+    {
+      "extension": "csh",
+      "category": "Vector graphics",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Adobe Photoshop custom shape"
+    },
+    {
+      "extension": "csl",
+      "category": "Vector graphics",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "CorelDRAW symbol library"
+    },
+    {
+      "extension": "drw",
+      "category": "Vector graphics",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Vector drawing"
+    },
+    {
+      "extension": "emz",
+      "category": "Vector graphics",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Microsoft Windows compressed enhanced metafile"
+    },
+    {
+      "extension": "sda",
+      "category": "Vector graphics",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Apache OpenOffice (OpenOffice.org) drawing"
+    },
+    {
+      "extension": "svg",
+      "category": "Vector graphics",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "XML based scalable vector graphics format"
+    },
+    {
+      "extension": "svgz",
+      "category": "Vector graphics",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "Compressed SVG (Scalable Vector Graphics)"
+    },
+    {
+      "extension": "264",
+      "category": "Video",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "H.264/MPEG-4 AVC video data file"
+    },
+    {
+      "extension": "3g2",
+      "category": "Video",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "3GPP2 multimedia data"
+    },
+    {
+      "extension": "3gp",
+      "category": "Video",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Multimedia files for wireless networks"
+    },
+    {
+      "extension": "avi",
+      "category": "Video",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Audio Video Interleave movie"
+    },
+    {
+      "extension": "dash",
+      "category": "Video",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Dynamic Adaptive Streaming over HTTP video"
+    },
+    {
+      "extension": "dvr",
+      "category": "Video",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Microsoft Windows XP Media Center TV recording"
+    },
+    {
+      "extension": "h264",
+      "category": "Video",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "H.264 video"
+    },
+    {
+      "extension": "m2t",
+      "category": "Video",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "MPEG-2 transport stream"
+    },
+    {
+      "extension": "m2ts",
+      "category": "Video",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "MPEG-2 stream (Blu-Ray)"
+    },
+    {
+      "extension": "m4v",
+      "category": "Video",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "MPEG-4 video file format"
+    },
+    {
+      "extension": "mkv",
+      "category": "Video",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Matroska multimedia container video file"
+    },
+    {
+      "extension": "mod",
+      "category": "Video",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Hard disk camera movie MPEG-2 program stream"
+    },
+    {
+      "extension": "mov",
+      "category": "Video",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Apple QuickTime digital video"
+    },
+    {
+      "extension": "mp4",
+      "category": "Video",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "MPEG-4 video file format"
+    },
+    {
+      "extension": "mpeg",
+      "category": "Video",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "MPEG movie"
+    },
+    {
+      "extension": "mpg",
+      "category": "Video",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "MPEG 1 video file format"
+    },
+    {
+      "extension": "mts",
+      "category": "Video",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "AVCHD MPEG-2 transport stream"
+    },
+    {
+      "extension": "ogv",
+      "category": "Video",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Ogg Vorbis video"
+    },
+    {
+      "extension": "rmvb",
+      "category": "Video",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "RealMedia variable bitrate"
+    },
+    {
+      "extension": "tod",
+      "category": "Video",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Hard disk camera movie MPEG-2 transport stream"
+    },
+    {
+      "extension": "tp",
+      "category": "Video",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "MPEG-2 TV recorded video"
+    },
+    {
+      "extension": "ts",
+      "category": "Video",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "MPEG-TV recorded video format"
+    },
+    {
+      "extension": "vob",
+      "category": "Video",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "DVD video object"
+    },
+    {
+      "extension": "wlmp",
+      "category": "Video",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Microsoft Windows Live Movie Maker video project"
+    },
+    {
+      "extension": "wmv",
+      "category": "Video",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Windows Media Video"
+    },
+    {
+      "extension": "ova",
+      "category": "Virtualization software related files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Open Virtual Machine Format single archive"
+    },
+    {
+      "extension": "ovf",
+      "category": "Virtualization software related files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Open Virtualization Format package file"
+    },
+    {
+      "extension": "pvm",
+      "category": "Virtualization software related files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Parallels Desktop virtual machine"
+    },
+    {
+      "extension": "vdi",
+      "category": "Virtualization software related files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "VirtualBox disk image"
+    },
+    {
+      "extension": "vhd",
+      "category": "Virtualization software related files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Virtual Hard Disk file"
+    },
+    {
+      "extension": "vhdx",
+      "category": "Virtualization software related files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "Microsoft Windows Hyper-V virtual hard disk"
+    },
+    {
+      "extension": "vmdk",
+      "category": "Virtualization software related files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "VMware virtual disk"
+    },
+    {
+      "extension": "vmem",
+      "category": "Virtualization software related files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "VMware virtual machine's paging data"
+    },
+    {
+      "extension": "vmwarevm",
+      "category": "Virtualization software related files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "VMware Fusion virtual machine"
+    },
+    {
+      "extension": "vmx",
+      "category": "Virtualization software related files",
+      "structure": "ymd_structure",
+      "action": "moveIntoTarget",
+      "description": "VMware configuration data file"
+    },
+    {
+      "extension": "ahk",
+      "category": "System file types",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "AutoHotkey script file"
+    },
+    {
+      "extension": "cat",
+      "category": "Windows operating system",
+      "structure": "",
+      "action": "leaveCount",
+      "description": "File used by the Windows operating system; specifies that a group of files are from a verifiable source; used for security purposes and contains a digital signature, the catalog version, and an effective date; often used for verifying new software update files."
+    }    
+  ],
+  "categorylist": [
+    {
+      "category": "Anything else",
+      "creationdateproperties": "filesystem",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "None",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Windows operating system",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Bitmap images",
+      "creationdateproperties": "EXIF DateTimeOriginal, DateTimeOriginal, EXIF DateTimeDigitized, DateTimeDigitized, EXIF DateTime, DateTime",
+      "creationdatecategory": "Bitmap images",
+      "fallbackcategory": "Anything else"
+    },
+    {
+      "category": "3D graphics",
+      "creationdatecategory": "Bitmap images"
+    },
+    {
+      "category": "Archives",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Audio files",
+      "creationdatecategory": "Bitmap images"
+    },
+    {
+      "category": "Backup files",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Configuration files",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Database related files",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Digital camera RAW photos",
+      "creationdatecategory": "Bitmap images"
+    },
+    {
+      "category": "Disk images",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Documents",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "E-book files",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Email files",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Emulation related files",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Encrypted files",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "File extensions blocked by mail clients",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Financial files",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Font files",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Game related files",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Google Cloud",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Graphics file types",
+      "creationdatecategory": "Bitmap images"
+    },
+    {
+      "category": "Internet related files",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Microsoft Office files",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Mobile phone related files",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Mobile ringtones",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "No extension",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Plugins",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Possibly dangerous files",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Program executables",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Python Input File",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Python Script",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Ransomware encrypted files",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Simple text files",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Source code files",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Spreadsheets",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "System file types",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Temporary files",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Various file types",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Various presets or theme files",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Vector graphics",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Video",
+      "creationdateproperties": "pscon.PKEY_Media_DateEncoded",
+      "creationdatecategory": "Video"
+    },
+    {
+      "category": "Virtualization software related files",
+      "creationdatecategory": "Anything else"
+    },
+    {
+      "category": "Undefined extensions",
+      "creationdatecategory": "Anything else"
+    }
+  ]
+}
